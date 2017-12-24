@@ -1,8 +1,16 @@
 {
   "repositories": [
     {
-      "url": "https://github.com/eskirex/dotify.git",
-      "type": "git"
+      "type":"package",
+      "package": {
+        "name": "eskirex/dotify",
+        "version":"master",
+        "source": {
+          "url": "https://github.com/eskirex/dotify.git",
+          "type": "git",
+          "reference":"master"
+        }
+      }
     }
   ],
   "name": "eskirex/session",
