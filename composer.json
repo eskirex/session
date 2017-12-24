@@ -1,0 +1,34 @@
+{
+  "repositories": [
+    {
+      "url": "https://github.com/eskirex/dotify.git",
+      "type": "git"
+    }
+  ],
+  "name": "eskirex/session",
+  "type": "library",
+  "description": "Eskirex Session Component",
+  "keywords": [],
+  "homepage": "http://www.eskirex.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eskirex",
+      "email": "eskirex@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "eskirex/dotify": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Eskirex\\Component\\Session\\": "src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
